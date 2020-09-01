@@ -13,7 +13,7 @@ public class RoomDimension {
         return(length*width);
     }
 
-//    String toString(){
-//
-//    }
+    public String toString(){
+        return("Room dimension: " + this.length + "x" + this.width);
+    }
 }
